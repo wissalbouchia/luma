@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Luma</string>
+    <string name="add_note">Ajouter une note</string>
+    <string name="view_archived_notes">Voir les notes archivées</string>
+    <string name="no_archived_notes">Aucune note archivée disponible.</string>
+</resources>

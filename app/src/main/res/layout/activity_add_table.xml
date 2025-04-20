@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Rows Input Field -->
+    <EditText
+        android:id="@+id/rowsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:minHeight="48dp"
+        android:hint="Enter number of rows"
+        android:inputType="number"
+        android:padding="12dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Columns Input Field -->
+    <EditText
+        android:id="@+id/columnsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:minHeight="48dp"
+        android:hint="Enter number of columns"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Create Table Button -->
+    <Button
+        android:id="@+id/createTableButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Create Table"
+        android:layout_marginTop="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Button to create table" />
+</LinearLayout>

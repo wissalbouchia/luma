@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لوما</string>
+    <string name="add_note">إضافة ملاحظة</string>
+    <string name="view_archived_notes">عرض الملاحظات المؤرشفة</string>
+    <string name="no_archived_notes">لا توجد ملاحظات مؤرشفة متاحة.</string>
+</resources>
